@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hxh.test_style.TypeActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="view"
+            android:text="控件颜色"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="type1"
+            android:text="type1(默认)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="type2"
+            android:text="type2(颜色设置)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="type3"
+            android:text="type3(自定义颜色)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="选择type3状态栏颜色"/>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#339900dd"
+                android:checked="true"
+                android:text="#339900dd"/>
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#8800dd99"
+                android:text="#8800dd99"/>
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ccee5500"
+                android:text="#ccee5500"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="type4"
+            android:text="type4(java实现)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="type5"
+            android:text="type5(主题切换)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="type6"
+            android:text="type6(statusbar、navigationbar隐藏)"/>
+
+    </LinearLayout>
+
+</ScrollView>

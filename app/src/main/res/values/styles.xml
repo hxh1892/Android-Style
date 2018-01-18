@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ViewTheme" parent="Theme.AppCompat.Light">
+        <!--ToolBar背景色-->
+        <item name="colorPrimary">#0000ff</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">#00ff00</item>
+        <!--控制各个控件被选中时的颜色-->
+        <item name="colorAccent">#ff0000</item>
+
+        <!--各个控制控件的默认颜色-->
+        <item name="android:colorControlNormal" tools:ignore="NewApi">#00ffff</item>
+
+        <!--文字颜色-->
+        <item name="android:textColorPrimary">#ff00ff</item>
+
+        <!--页面背景色-->
+        <!--<item name="android:windowBackground">@color/type1</item>-->
+
+    </style>
+
+    <style name="ImmerseTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--windowTranslucentStatus控制statusbar沉浸，windowTranslucentNavigation控制navigationbar沉浸-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="ImmerseTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ff0000</item>
+        <item name="colorPrimaryDark">#00ff00</item>
+        <item name="colorAccent">#0000ff</item>
+
+        <!--设置statusbar文字图标颜色为灰色，不支持沉浸式，配合statusBarColor设置颜色，默认colorPrimaryDark-->
+        <!--<item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+
+        <!--windowTranslucentStatus控制statusbar沉浸，windowTranslucentNavigation控制navigationbar沉浸-->
+        <!--要么沉浸，要么设置颜色不沉浸-->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!--Android 5.x开始可以设置statusbar、navigationbar颜色，true默认，false设置其他颜色，同时添加下面的颜色设置属性-->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">
+            @android:color/transparent
+        </item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/type3
+        </item>
+    </style>
+
+    <style name="AppTheme_Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="text_cl">#333333</item>
+        <item name="text_bg">#888888</item>
+        <item name="activity_bg">#dddddd</item>
+    </style>
+
+    <style name="AppTheme_Dark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="text_cl">#55aaaaaa</item>
+        <item name="text_bg">#888888</item>
+        <item name="activity_bg">#99000000</item>
+    </style>
+
+</resources>

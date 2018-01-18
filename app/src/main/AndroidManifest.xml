@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hxh.test_style">
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewActivity"
+            android:theme="@style/ViewTheme"/>
+        <activity
+            android:name=".TypeActivity1"
+            android:theme="@style/ImmerseTheme1"/>
+        <activity
+            android:name=".TypeActivity2"
+            android:theme="@style/ImmerseTheme2"/>
+        <activity android:name=".TypeActivity3"/>
+        <activity android:name=".TypeActivity4"/>
+        <activity
+            android:name=".TypeActivity5"
+            android:theme="@style/AppTheme_Light"/>
+        <activity android:name=".TypeActivity6"/>
+    </application>
+
+</manifest>
