@@ -1,4 +1,4 @@
-package com.hxh.test_style;
+package com.hxh.style;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

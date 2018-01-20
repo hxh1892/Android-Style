@@ -1,4 +1,4 @@
-package com.hxh.test_style.StatusBarColorChange;
+package com.hxh.style.StatusBarColorChange;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

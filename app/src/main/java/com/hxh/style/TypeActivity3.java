@@ -1,9 +1,9 @@
-package com.hxh.test_style;
+package com.hxh.style;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.hxh.test_style.StatusBarColorChange.StatusBarColorChangeUtils;
+import com.hxh.style.StatusBarColorChange.StatusBarColorChangeUtils;
 
 public class TypeActivity3 extends AppCompatActivity
 {

@@ -1,14 +1,14 @@
-package com.hxh.test_style;
+package com.hxh.style;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class ViewActivity extends AppCompatActivity
+public class TypeActivity1 extends AppCompatActivity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.act_view);
+        setContentView(R.layout.act_type);
     }
 }

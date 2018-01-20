@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hxh.test_style.StatusBarColorChange;
+package com.hxh.style.StatusBarColorChange;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

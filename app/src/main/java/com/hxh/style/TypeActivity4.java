@@ -1,4 +1,4 @@
-package com.hxh.test_style;
+package com.hxh.style;
 
 import android.os.Build;
 import android.os.Bundle;
